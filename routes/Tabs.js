@@ -27,16 +27,16 @@ function Tabs() {
     >
       <Tab.Screen name="Home" component={Home}
        options ={{
-         tabBarIcon: ({color}) => <MaterialCommunityIcons name="home" color={color} size={32} />
+         tabBarIcon: ({color}) => <MaterialCommunityIcons name="home" color={color} size={20} />
        }}
       />
       <Tab.Screen name="Liked" component={Liked} 
       options ={{
-         tabBarIcon: ({color}) => <Entypo name="heart" size={24} color={color} />
+         tabBarIcon: ({color}) => <Entypo name="heart" size={20} color={color} />
       }} />
       <Tab.Screen name="Profile" component={Profile}
        options={{
-         tabBarIcon: ({color}) => <Entypo name="user" size={24} color= {color} />
+         tabBarIcon: ({color}) => <Entypo name="user" size={20} color= {color} />
        }}
       />
     </Tab.Navigator>
